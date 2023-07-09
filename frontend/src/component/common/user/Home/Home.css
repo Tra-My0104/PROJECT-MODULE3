@@ -1,0 +1,180 @@
+.containerBgCr{
+    background-image: url(https://www.cgv.vn/skin/frontend/cgv/default/images/bg-cgv/bg-bottom-footer.jpg);
+}
+
+#carouselExampleInterval{
+    width: 80% !important;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+.imgIcon{
+    /* margin-left: 300px; */
+    position: relative;
+}
+
+  
+  .imgIcon img {
+    display: block; /* Hiển thị hình ảnh dưới dạng khối */
+    margin: 0 auto !important;
+  }
+  
+  .imgIcon hr {
+    border-style: solid; /* Đặt kiểu đường viền là solid */
+    border-width: 1px; /* Đặt độ dày của đường viền */
+    border-color: black; /* Đặt màu đường viền */
+    margin-top: -10px; /* Điều chỉnh khoảng cách từ hr đến hình ảnh */
+    width: 850px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+  }
+
+  .containerMovie{
+    background: url(https://www.cgv.vn/skin/frontend/cgv/default/images/bg-cgv/bg_h3_line.jpg) repeat-x scroll left center rgba(0, 0, 0, 0);
+    height: 45px;
+    text-align: center;
+    /* width: 100%; */
+    margin-top: 20px;
+  }
+
+
+ .imgMovie {
+    margin-top: 20px;
+    height: 300px;
+    width: 70% !important;
+    display: block;
+    /* padding: 0px !important; */
+  }
+
+  .slider-container{
+    margin: 0 auto;
+    max-width: 95%;
+  }
+
+  .containerEvent{
+    background: url(https://www.cgv.vn/skin/frontend/cgv/default/images/bg-cgv/bg_h3_line.jpg) repeat-x scroll left center rgba(0, 0, 0, 0);
+    height: 45px;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+    top: 400px;
+  }
+
+  .eventCGV{
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .event{
+    border-bottom: 3px solid black;
+  }
+
+  .event2{
+    margin-top: 30px;
+    border-bottom: 3px solid black;
+  }
+
+  .imgEvent{
+    padding-left: 5px;
+    margin-bottom: 50px;
+  }
+
+  .imgEvent2{
+    margin-left: 5px;
+    padding: 2px;
+    margin-bottom: 50px;
+    border: 3px solid black;
+    opacity: 1;
+  }
+
+  .imgEvent2:hover{
+    opacity: 0.8;
+  }
+
+  .img-wapper{
+    position: relative;
+    display: inline-block;
+  }
+
+  .play {
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    border: none;
+    border-radius: 5px;
+    background-color: #ffcc00;
+    width: 50px;
+    height: 40px;
+    color: #ffffff;
+    font-size: 20px;
+  }
+
+  .btn-play{
+    display: none;
+  }
+
+  .btn-play .play:hover{
+    color: red;
+  }
+  
+  .btn-img {
+    position: absolute;
+    display: none;
+    bottom: 0;
+    margin: 0 -5px 20px -6px;
+    gap: 10px;
+  }
+
+  .btn-img button {
+    margin: 0 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffcc00;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .btn-img button:hover{
+    color: red;
+  }
+
+  .fa-phone{
+    color: #ffffff;
+  }
+
+  .tilte{
+    color: #131313;
+    font-size: large;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: rgba(234, 219, 219, 0.626);
+    width: 96%;
+  }
+
+  .img-item{
+    opacity: 1;
+  }
+
+  .img-item:hover{
+    opacity: 0.9;
+  }
+
+  .img-item:hover .btn-img{
+    display: block;
+  }
+
+  .img-item:hover .btn-play{
+    display: block;
+  }
+
+  
+
+
+  

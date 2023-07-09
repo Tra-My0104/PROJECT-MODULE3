@@ -1,0 +1,55 @@
+.register{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.carousell{
+    max-width: 50%;
+    border-left: 2px solid rgb(158, 151, 151);
+}
+
+.imgcarousel{
+    height: 500px;
+    width: 450px;
+  }
+
+  .navbar{
+    background-color: red;
+    color: white;
+    width: 500px;
+    margin-top: 30px;
+    font-size: larger;
+  }
+
+  .formregister label{
+    margin-top: 5px;
+  }
+
+
+  .formregister .input{
+    width: 300px;
+ }
+
+ .formregister .radio{
+    margin-left: 10px;
+ }
+
+  .rigister{
+    background-color: red;
+    color: #fdfdfd;
+    width: 450px;
+    text-align: center;
+    border: none;
+    margin-top: 20px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: larger;
+  }
+
+  .navbar-dark .navbar-nav .nav-link {
+    color: white;
+  }
+
+  .navbar-dark .navbar-nav .nav-link:active{
+    border-bottom: 3px solid white;
+  }

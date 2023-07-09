@@ -1,0 +1,147 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.linkNav {
+  display: flex;
+  justify-content: center;
+}
+
+.linkNav a{
+    margin: 10px;
+    color: rgb(93, 89, 89);
+    text-decoration: none;
+}
+
+.linkNav a:hover{
+    color: #4a4545;
+}
+
+/* .from-language .ull{
+    display: flex;
+} */
+
+.from-language .ull li{
+   list-style: none;
+   margin-top: 10px;
+   text-align: center;
+}
+
+.from-language .viet{
+    background-color: red;
+    color: white;
+    width: 45px;
+    border-radius: 5px 0px 0px 5px;
+    margin-right: -5px;
+}
+
+.from-language .eng{
+    background-color: rgb(109, 107, 107);
+    color: white;
+    width: 45px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.logoNav{
+    opacity: 1;
+    margin-top: -20px;
+}
+.logoNav:hover {
+    opacity: 0.5;
+}
+
+.bgNav{
+    background-image: url(https://www.cgv.vn/skin/frontend/cgv/default/images/bg-cgv/bg-top.png);
+    height: 135px;
+    /* margin-top: -5px; */
+}
+
+.containerNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 980px; */
+    margin: 0 auto; /* căn giữa theo chiều ngang */
+    padding-top: 45px;
+  }
+  
+
+.logoTicket{
+    margin-top: -40px;
+}
+
+.logoKenh{
+    /* margin-right: 80px; */
+    margin-top: 10px;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+  }
+
+  .btnnav{
+    border: none;
+    background-color: transparent;
+    font-weight: 600;
+    padding-top: 5px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #636363;
+    width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-top: 10px; /* thêm khoảng cách giữa dropdown-content và nút dropdown */
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+        color: red;
+  }
+  
+  .dropdown-content a:hover::before {
+    content: "\f0a4"; /* Mã Unicode của icon ngón tay chỉ trong FontAwesome */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: red; /* Thay đổi màu của icon thành màu đỏ khi hover */
+    position: absolute; /* Thiết lập vị trí tuyệt đối cho ngón tay */
+    top: -10px; /* Điều chỉnh vị trí top để ngón tay nằm trên cùng */
+    left: 50%; /* Đặt ngón tay giữa ngang của thẻ */
+    transform: translateX(-50%); /* Điều chỉnh ngón tay nằm chính giữa thẻ */
+    margin-right: 5px; /* Khoảng cách giữa biểu tượng và chữ */
+  }
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+    margin-top: 0; /* loại bỏ khoảng cách giữa dropdown-content và nút dropdown */
+  }
+
+  .span{
+    margin-top: 10px;
+  }
+  

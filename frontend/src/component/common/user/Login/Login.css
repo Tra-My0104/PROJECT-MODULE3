@@ -1,0 +1,56 @@
+.carousell {
+  max-width: 50%;
+  margin: 50px 0px 100px 0px;
+  border-left: 2px solid rgb(158, 151, 151);
+}
+
+.containerLogin{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav{
+  display: block !important;
+}
+
+.imgcarousel{
+  height: 500px;
+  width: 450px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+
+.navbar{
+  background-color: red;
+  color: white;
+  width: 500px;
+  margin-top: 50px;
+  
+}
+
+.formlogin{
+  padding: 10px;
+}
+
+.formlogin input{
+   width: 450px;
+}
+
+.login{
+  background-color: red;
+  color: #fdfdfd;
+  width: 450px;
+  text-align: center;
+  border: none;
+  margin-top: 20px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: larger;
+}
+

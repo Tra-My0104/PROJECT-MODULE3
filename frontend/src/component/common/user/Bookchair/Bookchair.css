@@ -1,0 +1,75 @@
+.tilteBook{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 70%;
+    margin: 5px auto;
+}
+
+.seats{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px auto;
+    width: 27%;
+}
+
+.seat{
+    border: 1px solid rgb(4, 109, 7);
+    width: 60px;
+    height: 30px;
+    margin: 5px;
+    text-align: center;
+}
+
+.bought{
+    background-color: #bbb;
+}
+
+.active{
+    background-color: rgb(165, 7, 7);
+    color: white;
+}
+
+.ticketBook{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon.checked::before{
+    background-color: rgb(165, 7, 7);
+}
+
+
+.icon.occupied::before{
+    background-color: rgb(163, 163, 163);
+}
+
+.icon::before{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 18px;
+    height: 18px;
+    margin: 0 5px 0 0;
+}
+
+.icon.ban::before{
+    background: #bbb;
+    content: "X";
+    text-align: center;
+    color: #fff;
+}
+
+.icon.often::before{
+    border: 1px solid green;
+}
+
+.icon.vip::before{
+    border: 1px solid red;
+}
+
+.icon.couple::before{
+    background-color: rgb(178, 13, 79);
+}
+
